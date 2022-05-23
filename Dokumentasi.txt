@@ -1,0 +1,39 @@
+backend
+npm init
+npm i express pg sequelize dotenv
+npm i express pg sequelize dotenv jsonwebtoken bcrypt
+npm i cors
+npm i --save-dev sequelize-cli nodemon
+npm install --save express-async-handler
+npm install mongodb
+npm install mongoose
+npm install morgan --save
+npm install --save multer
+npm install react-google-login
+npm install -g concurrently
+npm install cookie-parser
+npm install debug
+npm install moment --save
+npm install react-redux
+npm install saslprep --save
+npm install supports-color
+
+update db
+npx browserslist@latest --update-db
+
+code .env , .gitignore
+mkdir routes, middleware, controllers, utils
+npx sequelize-cli init (ubah db nya)
+
+
+rubah package.json baris ke 7
+tambahkan di atas test yaitu "start": "nodemon app.js",
+
+frontend
+install react.js
+npx create-react-app <nama project>
+
+install heroku
+npm i -g heroku
+
+https://github.com/facebook/create-react-app
